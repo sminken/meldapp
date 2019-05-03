@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crash_toast_text">Helaas, de app is gecrasht. Het is doorgestuurd aan de ontwikkelaars, sorry!</string>
+
+    <string name="tutorial_title">Welkom bij %1$s</string>
+    <string name="previous">Vorige</string>
+    <string name="next">Volgende</string>
+    <string name="done">Ga door</string>
+    <string name="of">%1$d van %2$d</string>
+
+
+    <string name="changelog_full_title">Wat was nieuw?</string>
+    <string name="changelog_title">Wat is nieuw?</string>
+    <string name="changelog_ok_button">Oké!</string>
+</resources>

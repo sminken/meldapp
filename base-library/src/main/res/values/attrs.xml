@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundedImageView">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PageIndicatorBar">
+        <attr name="previousText" format="string" />
+        <attr name="nextText" format="string" />
+        <attr name="showDirection" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="WizardDefinition">
+        <attr name="background" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="width" format="dimension" />
+        <attr name="height" />
+        <attr name="light" format="boolean" />
+    </declare-styleable>
+</resources>

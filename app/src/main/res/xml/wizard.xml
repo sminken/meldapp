@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wizard xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:width="300dp"
+        app:height="400dp"
+    >
+    <Screen android:id="@+id/welcome"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/tutorial_welcome_title"
+            android:text="@string/tutorial_welcome_description"
+        />
+
+</Wizard>

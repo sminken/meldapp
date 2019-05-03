@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title_melding_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/title_melding_details"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_annuleren"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/button_annuleren"
+            android:textSize="10sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_melding_details" />
+
+        <Button
+            android:id="@+id/button_aantekeningen"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/button_aantekeningen"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/button_annuleren"
+            app:layout_constraintTop_toBottomOf="@+id/title_melding_details" />
+
+        <Button
+            android:id="@+id/button_mij_toewijzen"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/button_mij_toewijzen"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/button_opgelost"
+            app:layout_constraintStart_toEndOf="@+id/button_annuleren"
+            app:layout_constraintTop_toBottomOf="@+id/title_melding_details" />
+
+        <Button
+            android:id="@+id/button_opgelost"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/button_opgelost"
+            android:textIsSelectable="false"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/button_aantekeningen"
+            app:layout_constraintTop_toBottomOf="@+id/title_melding_details"
+            tools:layout_width="104dp" />
+
+        <TextView
+            android:id="@+id/detail_onderwerp"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/border_full"
+            android:fontFamily="sans-serif"
+            android:paddingStart="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_annuleren" />
+
+        <TextView
+            android:id="@+id/detail_datum"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/border_full"
+            android:fontFamily="sans-serif"
+            android:paddingStart="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_onderwerp" />
+
+        <TextView
+            android:id="@+id/detail_tijd"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/border_full"
+            android:fontFamily="sans-serif"
+            android:paddingStart="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintRight_toRightOf="@+id/detail_melder"
+            app:layout_constraintStart_toEndOf="@+id/detail_datum"
+            app:layout_constraintTop_toBottomOf="@+id/detail_onderwerp" />
+
+        <TextView
+            android:id="@+id/detail_status"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/border_full"
+            android:fontFamily="sans-serif"
+            android:paddingStart="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_onderwerp" />
+
+        <TextView
+            android:id="@+id/detail_melder"
+            style="@style/AppTheme"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/border_full"
+            android:fontFamily="sans-serif"
+            android:paddingStart="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/detail_behandelaar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_datum" />
+
+        <TextView
+            android:id="@+id/detail_telefoonnummer"
+            style="@style/AppTheme"
+            android:layout_width="175dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/border_full"
+            android:fontFamily="sans-serif"
+            android:paddingStart="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_melder" />
+
+        <TextView
+            android:id="@+id/detail_behandelaar"
+            style="@style/AppTheme"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/border_full"
+            android:fontFamily="sans-serif"
+            android:paddingStart="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/detail_melder"
+            app:layout_constraintTop_toBottomOf="@+id/detail_datum" />
+
+        <TextView
+            android:id="@+id/detail_inhoud"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/border_full"
+            android:fontFamily="sans-serif"
+            android:paddingStart="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="8dp"
+            android:scrollbars="none|vertical"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_telefoonnummer" />
+
+        <TextView
+            android:id="@+id/text_onderwerp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_onderwerp"
+            app:layout_constraintBottom_toTopOf="@+id/detail_onderwerp"
+            app:layout_constraintLeft_toLeftOf="@+id/detail_onderwerp" />
+
+        <TextView
+            android:id="@+id/text_datum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_datum"
+            app:layout_constraintBottom_toTopOf="@+id/detail_datum"
+            app:layout_constraintLeft_toLeftOf="@+id/detail_datum" />
+
+        <TextView
+            android:id="@+id/text_tijd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_tijd"
+            app:layout_constraintBottom_toTopOf="@+id/detail_tijd"
+            app:layout_constraintLeft_toLeftOf="@+id/detail_tijd" />
+
+        <TextView
+            android:id="@+id/text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_status"
+            app:layout_constraintBottom_toTopOf="@+id/detail_status"
+            app:layout_constraintLeft_toLeftOf="@+id/detail_status" />
+
+        <TextView
+            android:id="@+id/text_melder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_melder"
+            app:layout_constraintBottom_toTopOf="@+id/detail_melder"
+            app:layout_constraintLeft_toLeftOf="@+id/detail_melder" />
+
+        <TextView
+            android:id="@+id/text_telefoonnummer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_telefoonnummer"
+            app:layout_constraintBottom_toTopOf="@+id/detail_telefoonnummer"
+            app:layout_constraintLeft_toLeftOf="@+id/detail_telefoonnummer" />
+
+        <TextView
+            android:id="@+id/text_behandelaar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_behandelaar"
+            app:layout_constraintBottom_toTopOf="@+id/detail_behandelaar"
+            app:layout_constraintLeft_toLeftOf="@+id/detail_behandelaar" />
+
+        <TextView
+            android:id="@+id/text_inhoud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_inhoud"
+            app:layout_constraintBottom_toTopOf="@+id/detail_inhoud"
+            app:layout_constraintLeft_toLeftOf="@+id/detail_inhoud" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

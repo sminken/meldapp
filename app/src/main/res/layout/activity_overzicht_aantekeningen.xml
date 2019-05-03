@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".view.OverzichtAantekeningenActivity">
+
+        <TextView
+            android:id="@+id/kopregel_overzicht_aantekeningen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_kopregel_aantekeningen"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/aantekeningen_recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="12dp"
+            android:scrollbars="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toevoegen_button"
+            tools:listitem="@layout/aantekening_lijst_item">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/toevoegen_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/button_toevoegen"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kopregel_overzicht_aantekeningen" />
+
+        <Button
+            android:id="@+id/buttonAantekeningToevoegenAnnuleren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/textButtonAantekeningToevoegenAnnuleren"
+            app:layout_constraintStart_toEndOf="@+id/toevoegen_button"
+            app:layout_constraintTop_toBottomOf="@+id/kopregel_overzicht_aantekeningen"/>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

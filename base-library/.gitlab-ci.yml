@@ -1,0 +1,13 @@
+cache:
+  key: "$CI_BUILD_REPO"
+  paths:
+  - gradle-cache
+
+common-debug:
+  tags:
+  - docker
+  image: ouapplab/android
+  script:
+  - gradle wrapper -b build-wrapper.gradle
+  - ./gradlew -g gradle-cache assembleDebug
+

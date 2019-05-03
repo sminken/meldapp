@@ -1,0 +1,4 @@
+$ 0.1
+% Version 0.1
+* First version of app.
+* We would love feedback, please don't hesitate to send us if you have any!

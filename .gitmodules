@@ -1,0 +1,3 @@
+[submodule "base-library"]
+	path = base-library
+	url = ../../ou-applab/base-library.git

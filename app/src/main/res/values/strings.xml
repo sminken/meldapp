@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">MeldApp</string>
+
+    <string name="auto_update_url" translatable="false">http://open.ou.nl</string>
+
+    <string name="tutorial_welcome_description">Welcome at the meldApp</string>
+    <string name="tutorial_welcome_title" translatable="false">Tutorial</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations" translatable="false">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name" translatable="false">Display name</string>
+    <string name="pref_default_display_name" translatable="false">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages" translatable="false">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync" translatable="false">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency" translatable="false">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="doen">Accept</string>
+    <string name="details_van_de_melding">Notification details</string>
+    <string name="meldingen_ontvanger_details">Notification details for user</string>
+    <string name="title_activity_meldingen_voor_ontvanger">Notifications for user</string>
+    <string name="meldingen_ontvanger">Notifications user</string>
+    <string name="melding_accepteren">Accept</string>
+    <string name="annuleren">Cancel</string>
+    <string name="overzichtaantekeningen">Overview notes</string>
+    <string name="nieuweaantekening">New note</string>
+    <string name="toevoegen">Add</string>
+    <string name="opgelost">Solved</string>
+    <string name="nieuwe_aantekening">New note</string>
+    <string name="text_aantekening">Note</string>
+    <string name="melder">User</string>
+    <string name="behandelaar">Employee</string>
+    <string name="administrator">Administrator</string>
+
+    <string name="nieuwe_melding_melding_doen">New</string>
+    <string name="nieuwe_melding_naam">Name</string>
+    <string name="nieuwe_melding_telefoon">Telephone</string>
+    <string name="nieuwe_melding_onderwerp">Subject</string>
+    <string name="nieuwe_melding_inhoud">Content</string>
+    <string name="nieuwe_melding_doen_button">Send notification</string>
+
+    <string name="melding_doen_button">New notification</string>
+    <string name="afmelden">Sign out</string>
+    <string name="organisatie_aanmelden">Sign up new organisation</string>
+    <string name="inloggen">Sign in</string>
+
+    <string name ="inlog_pagina_titel">Meldapp</string>
+    <string name="inlog_pagina_text">The Meldapp is an innovative app to resolve problems in your organisation
+        at a sooner stage. <br/>By using the app you can get in direct contact with an employee of your service organisation.</string>
+
+    <string name="registreer_organisatie">Register organisation</string>
+    <string name="registreer_naam_organisatie">Organisation</string>
+    <string name="ga_verder">Continue</string>
+    <string name="registreer_administrator">To use this app you need to sign in as administrator for your organisation.</string>
+    <string name="button_melding_nieuw">+</string>
+    <string name="button_overzicht_openstaand">Open</string>
+    <string name="button_overzicht_opgelost">Solved</string>
+    <string name="button_overzicht_gesloten">Closed</string>
+
+    <string name="aanvulling_melding">Edited: </string>
+    <string name="melding_details_titel">Notification details</string>
+    <string name="melding_aanvullen">Add to notification</string>
+    <string name="bekijk_aantekeningen">Notes</string>
+
+    <string name="textview_naam">name</string>
+    <string name="textview_onderwerp">subject</string>
+    <string name="textview_tijd_datum">notification done</string>
+    <string name="textview_status">current status</string>
+    <string name="textview_inhoud">content notification</string>
+    <string name="button_melding_opgelost">Solved</string>
+    <string name="button_opgelost">Solved</string>
+    <string name="button_nieuw">+</string>
+    <string name="button_heropenen">Reopen</string>
+    <string name="button_gesloten">Closed</string>
+    <string name="button_sluiten">Close</string>
+    <string name="button_openstaand">Open</string>
+    <string name="text_naam">Name</string>
+    <string name="text_datum">Date</string>
+    <string name="text_melder">User</string>
+    <string name="text_behandelaar">Employee</string>
+    <string name="text_tijd">Time</string>
+    <string name="text_inhoud">Content</string>
+    <string name="text_onderwerp">Subject</string>
+    <string name="text_status">Status</string>
+    <string name="title_melding">Notifications</string>
+    <string name="title_melding_details">Notification details</string>
+    <string name="title_melding_nieuw">New notification</string>
+    <string name="button_annuleren">Cancel</string>
+    <string name="title_activity_melding_sluiten">MeldingSluitenActivity</string>
+    <string name="title_melding_sluiten">Close notification</string>
+    <string name="text_aanvulling">Addition</string>
+    <string name="title_melding_heropenen">Reopen notification</string>
+
+    <string name="text_kopregel_aantekeningen">Remarks</string>
+    <string name="button_toevoegen">Add</string>
+    <string name="textButtonToevoegen">Ok</string>
+    <string name="textButtonAnnuleren">Cancel</string>
+    <string name="textButtonAantekeningToevoegenAnnuleren">Cancel</string>
+    <string name="text_afmelden">Sign out</string>
+    <string name="button_in_behandeling">In Process</string>
+    <string name="button_behandelen">Handle</string>
+    <string name="title_melding_opgelost">Notification solved</string>
+    <string name="text_telefoonnummer">Telephone</string>
+    <string name="button_aantekeningen">Remarks</string>
+    <string name="aantekeningen">Notes</string>
+    <string name="button_mij_toewijzen">Asign to me</string>
+    <string name="button_verzenden">Send</string>
+    <string name="foutmelding_telefoonnummer">Please enter a valid phone number with 10 numbers</string>
+
+    <string name="default_notification_channel_id" translatable="false">meldapp</string>
+    <string name="fcm_message">Meldapp message</string>
+    <string name="default_notification_channel_name" translatable="true">meldapp</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="msg_subscribed">Subscribed to meldapp channel</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to meldapp channel</string>
+
+    <string name="ProcesTekst">Sign in process started</string>
+    <string name="aanmelden_nieuwe_gebruiker">Sign in new user</string>
+    <string name="voornaam">First name</string>
+    <string name="achternaam">Last name</string>
+    <string name="telefoonnummer">telephone number</string>
+    <string name="als_melder">As client</string>
+    <string name="als_behandelaar">As Employee</string>
+    <string name="annuleren1">Cancel</string>
+    <string name="BlancoFoutmelding"></string>
+    <string name="SignUpCancelled">Sign in cancelled, an error occured geannuleerd</string>
+    <string name="RequestAccess">Ask your administrator for access to the meldap</string>
+
+    <string name="ToastNonActiveUser">Toast non active user</string>
+    <string name="errorIntent">Onjuist aanroep GebruikerAanmeldenNieuweGebruikerActivity, informeer ontwikkelaar</string>
+    <string name="unkownButtonID">Onbekende button ID</string>
+    <string name="SignOutCompleted">Sign out succesfull</string>
+    <string name="OnbekendeGebruikersRol">Unknown user roll</string>
+    <string name="text_notificatie">Receive notification</string>
+    <string name="text_instelling">Settings</string>
+    <string name="title_instellingen">Settings</string>
+    <string name="text_devicetoken">Device token</string>
+    <string name="AdminNietMogelijk">Use of meldapp by admin: only via console</string>
+    <string name="OnbekendeRol">Unknwown roll</string>
+
+    <string name="internet_connectie">No internet connection</string>
+    <string name="InvoerAantekening">Invoer Aantekeningtekst</string>
+
+    <string name="status_nieuw">New</string>
+    <string name="status_heropend">Reopened</string>
+    <string name="status_in_behandeling">Processing</string>
+    <string name="status_opgelost">Solved</string>
+    <string name="status_gesloten">Closed</string>
+    <string name="status_onbekend">Unknown</string>
+
+    <string name="meldingBeheer_add_aanvulling">Addition can\'t be empty</string>
+    <string name="meldingBeheer_text_aanvulling">Addition </string>
+
+    <string name="gebruiker_achternaam_exceptie">Last name must be filled.</string>
+    <string name="gebruiker_organisatie_exceptie">Organisation-value not allowed.</string>
+    <string name="gebruiker_uid_exceptie">Uid must be filled.</string>
+    <string name="gebruiker_getallen_exceptie">Only numbers and - are allowed.</string>
+    <string name="gebruiker_telefoon_exceptie">Please enter a valid phonenumber containing 10 numbers.</string>
+
+    <string name="melding_onderwerp_exceptie">Subject can\'t be empty.</string>
+    <string name="melding_inhoud_exceptie">Content can\'t be empty.</string>
+    <string name="melding_datum_en_tijd_exceptie">Date and time can\'t be empty.</string>
+    <string name="melding_identificatie_exceptie">Identification of user can\'t be empty.</string>
+    <string name="melding_status_exceptie">Status can\'t be empty.</string>
+    <string name="default_exceptie">an error has occured</string>
+
+    <string name="behandelaar_niet_toegekend">Not assigned</string>
+
+    <string name="channel_name">meldapp</string>
+    <string name="channel_description">meldapp notifications</string>
+    <string name="notification_title">Issue resolved with subject:</string>
+    <string name="notification_title_bigtext">You have a new resolved issue</string>
+    <string name="notification_text_bigtext">Tap here for more information</string>
+
+</resources>

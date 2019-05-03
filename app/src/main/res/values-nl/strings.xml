@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tutorial_welcome_description">Welkom bij de meldApp!</string>
+    <string name="tutorial_welcome_title"></string>
+    <string name="details_van_de_melding">Details van de melding:</string>
+    <string name="meldingen_ontvanger_details">meldingen_ontvanger_details</string>
+    <string name="title_activity_meldingen_voor_ontvanger">MeldingenVoorOntvangerActivity</string>
+    <string name="meldingen_ontvanger">Behandelaar</string>
+    <string name="melding_accepteren">Accepteer</string>
+    <string name="annuleren">Annuleer</string>
+    <string name="overzichtaantekeningen">OverzichtAantekeningen</string>
+    <string name="nieuweaantekening">NieuweAantekening:</string>
+    <string name="toevoegen">Toevoegen</string>
+    <string name="opgelost">Opgelost</string>
+    <string name="nieuwe_aantekening">Nieuwe Aantekening:</string>
+    <string name="text_aantekening">Aantekening</string>
+    <string name="melder">Melder</string>
+    <string name="behandelaar">Behandelaar</string>
+    <string name="administrator">Administrator</string>
+
+    <string name="nieuwe_melding_melding_doen">Nieuw</string>
+    <string name="nieuwe_melding_naam">Naam</string>
+    <string name="nieuwe_melding_onderwerp">Onderwerp</string>
+    <string name="nieuwe_melding_inhoud">Inhoud</string>
+    <string name="nieuwe_melding_telefoon">Telefoon</string>
+    <string name="nieuwe_melding_doen_button">Verstuur melding</string>
+
+    <string name="melding_doen_button">Nieuwe melding</string>
+    <string name="afmelden">Uitloggen</string>
+    <string name="organisatie_aanmelden">Organisatie aanmelden</string>
+    <string name="inloggen">Inloggen</string>
+
+    <string name ="inlog_pagina_titel">Meldapp</string>
+    <string name="inlog_pagina_text">De Meldapp is een innovatieve app om
+        sneller technische ICT problemen binnen uw organisatie te kunnen oplossen.<br/>Door gebruik te
+        maken van deze app komt u direct in contact met een medewerker van uw serviceorganisatie.</string>
+
+    <string name="registreer_organisatie">Registreer uw organisatie</string>
+    <string name="registreer_naam_organisatie">Organisatie</string>
+    <string name="ga_verder">Ga verder</string>
+    <string name="registreer_administrator">Voor het gebruik van de app dient u dient uzelf aan te melden als de
+        administrator van uw organisatie. Door verder te gaan veklaard u zich akkoord met de algemene voorwaarden.</string>
+    <string name="button_melding_nieuw">+</string>
+    <string name="button_overzicht_openstaand">Openstaand</string>
+    <string name="button_overzicht_opgelost">Opgelost</string>
+    <string name="button_overzicht_gesloten">Gesloten</string>
+
+    <string name="aanvulling_melding">Aangevuld: </string>
+    <string name="melding_details_titel">Details Melding</string>
+    <string name="melding_aanvullen">Vul melding aan</string>
+    <string name="bekijk_aantekeningen">Aantekeningen</string>
+
+    <string name="textview_naam">naam</string>
+    <string name="textview_onderwerp">onderwerp</string>
+    <string name="textview_tijd_datum">melding gedaan op</string>
+    <string name="textview_status">huidige status</string>
+    <string name="textview_inhoud">inhoud</string>
+    <string name="button_melding_opgelost">Opgelost</string>
+    <string name="button_opgelost">Opgelost</string>
+    <string name="button_nieuw">+</string>
+    <string name="button_heropenen">Heropenen</string>
+    <string name="button_gesloten">Gesloten</string>
+    <string name="button_sluiten">Sluiten</string>
+    <string name="button_openstaand">Openstaand</string>
+    <string name="text_naam">Naam</string>
+    <string name="text_datum">Datum</string>
+    <string name="text_melder">Melder</string>
+    <string name="text_behandelaar">Behandelaar</string>
+    <string name="text_tijd">Tijd</string>
+    <string name="text_inhoud">Inhoud</string>
+    <string name="text_onderwerp">Onderwerp</string>
+    <string name="text_status">Status</string>
+    <string name="title_melding">Meldingen</string>
+    <string name="title_melding_details">Details melding</string>
+    <string name="title_melding_nieuw">Nieuwe melding</string>
+    <string name="button_annuleren">Annuleren</string>
+    <string name="title_melding_sluiten">Sluiten melding</string>
+    <string name="text_aanvulling">Aanvulling</string>
+    <string name="title_melding_heropenen">Heropenen melding</string>
+
+    <string name="text_kopregel_aantekeningen">Aanwezige aantekeningen</string>
+    <string name="button_toevoegen">Toevoegen</string>
+    <string name="textButtonToevoegen">Ok</string>
+    <string name="textButtonAnnuleren">Annuleren</string>
+    <string name="textButtonAantekeningToevoegenAnnuleren">Terug</string>
+    <string name="app_name">MeldApp</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="pref_header_general">Algemeen</string>
+    <string name="pref_header_notifications">Notificaties</string>
+    <string name="pref_title_new_message_notifications">Nieuwe Notificaties</string>
+    <string name="pref_ringtone_silent">Stil</string>
+    <string name="pref_title_vibrate">Trillen</string>
+    <string name="doen">Accepteer</string>
+    <string name="text_afmelden">Afmelden</string>
+    <string name="button_in_behandeling">In behandeling</string>
+    <string name="button_behandelen">Behandelen</string>
+    <string name="title_melding_opgelost">Melding opgelost</string>
+    <string name="text_telefoonnummer">Telefoon</string>
+    <string name="button_aantekeningen">Aantekeningen</string>
+    <string name="aantekeningen">Aantekeningen</string>
+    <string name="title_activity_melding_sluiten">MeldingSluitenActivity</string>
+    <string name="button_mij_toewijzen">Mij toewijzen</string>
+    <string name="button_verzenden">Verzenden</string>
+    <string name="foutmelding_telefoonnummer">Geef een geldig telefoonnummer op bestaande uit 10 cijfers</string>
+
+    <string name="default_notification_channel_id" translatable="false">meldapp</string>
+    <string name="fcm_message">Meldapp bericht</string>
+    <string name="default_notification_channel_name" translatable="true">meldapp</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="msg_subscribed">Geabonneerd op meldapp</string>
+    <string name="msg_subscribe_failed">Abonneren op meldapp mislukt</string>
+
+    <string name="ProcesTekst">Het aanmeldproces wordt gestart</string>
+    <string name="aanmelden_nieuwe_gebruiker">Aanmelden nieuwe gebruiker</string>
+    <string name="voornaam">Voornaam</string>
+    <string name="achternaam">Achternaam</string>
+    <string name="telefoonnummer">Telefoonnummer</string>
+    <string name="als_melder">Als Melder</string>
+    <string name="als_behandelaar">Als Behandelaar</string>
+    <string name="annuleren1">Annuleren</string>
+    <string name="BlancoFoutmelding"></string>
+    <string name="SignUpCancelled">Inloggen geannuleerd, fout opgetreden</string>
+    <string name="RequestAccess">U moet admin vragen voor toegang app</string>
+
+    <string name="ToastNonActiveUser">Toast non active user</string>
+    <string name="errorIntent">Onjuist aanroep GebruikerAanmeldenNieuweGebruikerActivity, informeer ontwikkelaar</string>
+    <string name="unkownButtonID">Onbekende button ID</string>
+    <string name="SignOutCompleted">Afmelden afgerond</string>
+    <string name="OnbekendeGebruikersRol">Onbekende gebruikersrol</string>
+    <string name="text_notificatie">Ontvangen notificatie</string>
+    <string name="text_instelling">Instellingen</string>
+    <string name="title_instellingen">Instellingen</string>
+    <string name="text_devicetoken">Device token</string>
+    <string name="AdminNietMogelijk">Gebruik Meldapp door Admin: alleen via console mogelijk</string>
+    <string name="OnbekendeRol">Onbekende rol</string>
+
+    <string name="internet_connectie">Internet niet verbonden</string>
+    <string name="InvoerAantekening">Invoer Aantekeningtekst</string>
+
+    <string name="status_nieuw">Nieuw</string>
+    <string name="status_heropend">Heropend</string>
+    <string name="status_in_behandeling">In behandeling</string>
+    <string name="status_opgelost">Opgelost</string>
+    <string name="status_gesloten">Gesloten</string>
+    <string name="status_onbekend">Onbekend</string>
+
+    <string name="meldingBeheer_add_aanvulling">Aanvulling mag niet leeg zijn</string>
+    <string name="meldingBeheer_text_aanvulling">Aanvulling </string>
+
+    <string name="gebruiker_achternaam_exceptie">Achternaam moet ingevuld zijn.</string>
+    <string name="gebruiker_organisatie_exceptie">Organisatie-waarde niet toegestaan.</string>
+    <string name="gebruiker_uid_exceptie">Uid moet ingevuld zijn.</string>
+    <string name="gebruiker_getallen_exceptie">Alleen getallen en - zijn toegestaan</string>
+    <string name="gebruiker_telefoon_exceptie">Geef een geldig telefoonnummer op bestaande uit 10 cijfers</string>
+
+    <string name="melding_onderwerp_exceptie">Onderwerp mag niet leeg zijn.</string>
+    <string name="melding_inhoud_exceptie">Inhoud mag niet leeg zijn.</string>
+    <string name="melding_datum_en_tijd_exceptie">Datum en tijd mogen mogen niet leeg zijn.</string>
+    <string name="melding_identificatie_exceptie">Identificatie van de melder mag niet leeg zijn.</string>
+    <string name="melding_status_exceptie">Status mag niet leeg zijn.</string>
+    <string name="default_exceptie">Er is een fout opgetreden</string>
+
+    <string name="behandelaar_niet_toegekend">Niet toegekend</string>
+
+    <string name="channel_name">meldapp</string>
+    <string name="channel_description">meldapp notificaties</string>
+    <string name="notification_title">Melding opgelost met onderwerp:</string>
+    <string name="notification_title_bigtext">U heeft een nieuwe opgeloste melding</string>
+    <string name="notification_text_bigtext">Klik hier voor meer informatie</string>
+
+
+</resources>

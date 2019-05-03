@@ -1,0 +1,4 @@
+$ 0.1
+% Versie 0.1
+* Eerste versie van de app.
+* We horen graag je feedback.

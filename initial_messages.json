@@ -1,0 +1,55 @@
+{
+  "meldingen" : {
+    "-K2ib4H77rj0LYewF7dP" : {
+      "tekst" : "Systeem langzaam",
+      "datumTijd" : "20180701120001",
+      "gebruiker" : "Joris Jorissen"
+    },
+    "-K2ib5JHRbbL0NrztUfO" : {
+      "tekst" : "Contract opgezegd",
+      "datumTijd" : "20180401235041",
+      "gebruiker" : "Geert Geertsen"
+    },
+    "-K2ib62mjHh34CAUbide" : {
+      "tekst" : "Harde schijf gesneuveld",
+      "datumTijd" : "20180623083044",
+      "gebruiker" : "Betty Betsen"
+    },
+    "-K2ib62mjHh64CjUbide" : {
+      "tekst" : "Systeem defect",
+      "datumTijd" : "20180523083044",
+      "gebruiker" : "Jan Jansen"
+    },
+    "-K2ib62mjH6999jUbide" : {
+      "tekst" : "Adminustrator wachtwoord kwijt",
+      "datumTijd" : "20180323083044",
+      "gebruiker" : "Jan Jansen"
+    },
+    "-K2iabcmjHh64CjUbide" : {
+      "tekst" : "Nieuwe gebruikersnaam nodig",
+      "datumTijd" : "20180623063044",
+      "gebruiker" : "Jan Jansen"
+    },
+    "-K2ibplujHh64CjUbide" : {
+      "tekst" : "De cloud is offline",
+      "datumTijd" : "20180723083044",
+      "gebruiker" : "Manon van Emmen"
+    },
+    "-K2ib62mjyyh4CjUbide" : {
+      "tekst" : "De systemen zijn vastgelopen",
+      "datumTijd" : "20180423123044",
+      "gebruiker" : "Johny Jonners"
+    },
+    "-K2ib62pjH5c5CjUbide" : {
+      "tekst" : "Een aantal computers bevat een virus",
+      "datumTijd" : "20180513083044",
+      "gebruiker" : "Magriet Grieters"
+    },
+    "-P2ib62mjHh64CjUbide" : {
+      "tekst" : "Kritieke fouten gevonden in de Java code",
+      "datumTijd" : "20180801083044",
+      "gebruiker" : "Benny Bartels"
+    }
+
+  }
+}
