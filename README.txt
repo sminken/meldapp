@@ -13,16 +13,16 @@ De code kan via android studio gecompileerd worden op een android toestel via us
 Om de app te kunnen draaien is android studio vereist.
 
 Voor het aanmelden is gebruikt van Google authentication om de gebruiker te kunnen verifieren. Deze wordt bij de aanmelding ook geverifieerd door de administrator. Wanneer de gebruiker voorkomt als valide gebruiker dan kan deze de app gebruiken.
-<img src="aanmeldscherm.png" width="150px"/>
+![](img src="aanmeldscherm.png" width="150px")
 
 Een gebruiker die geregisteerd is als melder kan een melding aanmaken.
-<img src="aanmakenmelding.png" width="150px"/>
+![](img src="aanmakenmelding.png" width="150px")
 
 Deze melding komt dan te staan in het scherm overzicht meldingen. Wanneer een behandelaar de melding afhandeld verschuift de melding naar gesloten en dan kan deze bevestigen dat de melding naar wens is afgehandeld.
-<img src="overzichtmeldingen.png" width="150px"/>
+![](img src="overzichtmeldingen.png" width="150px")
 
 Wanneer een melding is gesloten kan de melder daarvan een notificatie ontvangen indien deze dat wil.
-<img src="notificaties.png" width="150px"/>
+![](img src="notificaties.png" width="150px")
 
 ## Running the tests
 
